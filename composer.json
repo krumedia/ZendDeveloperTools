@@ -1,5 +1,5 @@
 {
-    "name": "zendframework/zend-developer-tools",
+    "name": "krumedia/zend-developer-tools",
     "description": "Module for developer and debug tools for working with the ZF2 MVC layer.",
     "type": "zf-module",
     "license": "BSD-3-Clause",
@@ -19,8 +19,15 @@
         {
             "name": "Eric Boh",
             "email": "cossish@gmail.com"
+        },
+        {
+            "name": "Matthias Blümel",
+            "email": "matthias.bluemel@krumedia.com"
         }
     ],
+    "replace": {
+        "zendframework/zend-developer-tools": "*"
+    },
     "require": {
         "php":                               ">=5.3.3",
         "zendframework/zend-mvc":            "2.*",
