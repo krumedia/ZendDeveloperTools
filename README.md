@@ -1,10 +1,11 @@
 Zend Developer Tools
 ====================
 
-[![Build Status](https://travis-ci.org/zendframework/ZendDeveloperTools.svg)](https://travis-ci.org/zendframework/ZendDeveloperTools)  
-
 Module providing debug tools for working with the [Zend Framework 2](https://github.com/zendframework/zf2) MVC
 layer.
+
+It’s forked from [zendframework/zend-developer-tools](https://github.com/zendframework/ZendDeveloperTools) and includes
+some features which are not yet included to upstream.
 
 Installation
 ============
@@ -12,11 +13,11 @@ Installation
 1. Install the module via composer by running:
 
    ```sh
-   composer require zendframework/zend-developer-tools:dev-master
+   composer require krumedia/zend-developer-tools:dev-master
    ```
    or download it directly from github and place it in your application's `module/` directory.
 2. Add the `ZendDeveloperTools` module to the module section of your `config/application.config.php`
-3. Copy `./vendor/zendframework/zend-developer-tools/config/zenddevelopertools.local.php.dist` to
+3. Copy `./vendor/krumedia/zend-developer-tools/config/zenddevelopertools.local.php.dist` to
    `./config/autoload/zenddevelopertools.local.php`. Change any settings in it
    according to your needs.
 4. If server version of PHP is lower than 5.4.0 add the following in your `index.php`:
